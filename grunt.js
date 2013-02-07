@@ -37,6 +37,9 @@ module.exports = function(grunt) {
         lint: {
             files: [ 'diffutils.js' ]
         },
+        qunit: [
+            'qunit/test.html'
+        ],
         min: {
             dist: {
                 src: [
@@ -47,5 +50,5 @@ module.exports = function(grunt) {
             }
         }
     });
-    grunt.registerTask('default', 'concat lint min');
+    grunt.registerTask('default', 'concat lint qunit min');
 };
