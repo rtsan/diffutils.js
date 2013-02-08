@@ -21,6 +21,12 @@ patch format:
 
 ```
 
+Build
+-----
+
+diffutils.js uses the build tool [grunt](https://github.com/gruntjs/grunt).
+
+
 TODO
 ----
 
