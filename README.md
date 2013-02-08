@@ -31,7 +31,8 @@ TODO
 ----
 
 Performance improvement  
-Line-by-line diff
+Line-by-line diff  
+Apply patch with better matching
 
 License
 -------
